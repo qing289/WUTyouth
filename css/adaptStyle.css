@@ -1,0 +1,131 @@
+/* 此页面为自适应的css */
+
+/* 小屏幕 */
+@media screen and (max-width: 992px) {
+    nav a {
+        font-size: small;
+    }
+
+    main{
+        padding: 0 10px;
+    }
+    .list{
+        width: 38%;
+    }
+    #notice{
+        width: 50%;
+        font-size: small;
+
+    }
+    #smallImgBar{
+        width: 200px;
+        margin-top: 3%;
+    }
+    #news{
+        width:100%;
+        font-size: small;
+    }
+}
+
+
+/* 较小屏幕 */
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: xx-small;
+    }
+
+    nav .fa {
+        display: none;
+    }
+
+    aside img{
+        margin: 5% 0;
+    }
+
+    footer table {
+        width: 100%;
+        float: none;
+        border-bottom: 1px solid white;
+    }
+
+    footer address {
+        width: 100%;
+        float: none;
+        border-left: none;
+        padding-top: 3%;
+    }
+
+    footer p{
+       margin-bottom: 0;
+    }
+
+    main{
+        padding: 0 4px;
+    }
+
+    .carousel-indicators{
+        display: none;
+    }
+    .catalog p{
+        margin: 0 0 0 10px;
+    }
+    .catalogHead p {
+        font-size: 16px;
+    }
+
+    .list{
+        width: 38%;
+        font-size: x-small;
+    }
+
+    .rank p{
+        font-size: medium;
+    }
+    .rank li{
+        padding: 10px 0;
+        font-size: small;
+    }
+    .rank img{
+        width: 20px;
+        margin-right:0;
+        margin-bottom: 10px;
+    }
+
+    .swiper-container {
+        margin: 0 auto;
+    }
+    .swiper-slide{
+        height: 100px;
+    }
+
+    #notice{
+        width: 45%;
+        font-size: x-small;
+    }
+    #imgBanner{
+        width:50%;
+        float: left;
+    }
+    #news{
+        width:100%;
+    }
+
+    /* 细节页面的css */
+    .wrapLeft{
+        display: none;
+    }
+    .wrapLeft a{
+        padding: 14px 2px 0 0;
+    }
+
+    .wrapRight {
+        display: none;
+    }
+    .information {
+        width: 94%;
+        margin: 1% 3%;
+    }
+    .information h2{
+        font-size: large;
+    }
+}

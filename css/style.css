@@ -1,0 +1,401 @@
+/*标签属性----开始*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    user-select: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(0, 72, 155);
+}
+
+nav ul {
+    margin-top: 0;
+    padding-left: 10%;
+    margin-bottom: 0;
+}
+
+nav li {
+    width: 14%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+}
+
+nav a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: white;
+    padding: 6% 6% 5%;
+    animation: alternate;
+}
+
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(0, 72, 155);
+    background-color: white;
+    text-decoration: none;
+}
+
+nav a:hover .line {
+    width: 115%
+}
+
+nav i {
+    padding-right: 10%;
+}
+
+banner {
+    display: block;
+    margin-bottom: 15px;
+}
+
+main {
+    padding: 1% 10%;
+    /*background-image: url("../image/colorChange-min.jpg");*/
+    background-repeat: no-repeat;
+}
+
+aside {
+    width: 22%;
+    float: right;
+    overflow: visible;
+    margin-bottom: 1%;
+}
+
+aside img {
+    width: 100%;
+    margin: 0 0 5% 0;
+}
+
+aside li {
+    display: block;
+}
+
+footer {
+    clear: both;
+    background-color: #323639;
+    text-align: center;
+    color: #616161;
+    padding: 2% 0 0;
+    overflow: auto;
+}
+
+footer table {
+    width: 50%;
+    float: left;
+    user-select: none;
+}
+
+footer address {
+    width: 50%;
+    float: right;
+    border-left: 1px solid white;
+}
+
+footer a {
+    color: #616161;
+}
+
+
+/*标签属性---结束*/
+
+.list {
+    width: 25%;
+}
+
+.catalog {
+    background-color: rgba(225, 225, 225, 0.1);
+    margin: 0 1% 1% 0;
+    transition: .5s;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    float: left;
+}
+
+.catalogTitle {
+    display: inline-block;
+}
+
+.catalogHead {
+    padding: 5px 7px;
+    margin: 0 0 3px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.catalogHead p {
+    font-family: 微软雅黑, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.catalogHead a {
+    font-family: 微软雅黑, serif;
+    font-weight: bold;
+    color: rgb(79, 145, 183);
+    ;
+    float: right;
+    line-height: 200%;
+}
+
+.catalog p {
+    font-family: 微软雅黑, serif;
+    margin: 0 0 0 2%;
+    display: inline-block;
+}
+
+.catalog section {
+    padding: 10px 10px 0 0;
+}
+
+.catalog section a {
+    margin: 0 0 10px;
+    color: black;
+    display: block;
+}
+
+.catalog time {
+    float: right;
+}
+
+.catalog section a:hover {
+    text-decoration: none;
+}
+
+.catalog:hover {
+    transform: scale(1) translate(0, -1%);
+    box-shadow: 0 0 15px gray;
+}
+
+.line {
+    width: 0;
+    left: -8%;
+    height: 2px;
+    position: relative;
+    background-color: rgb(0, 72, 155);
+    transition: width .4s;
+    -moz-transition: width .4s;
+    -webkit-transition: width .4s;
+    -o-transition: width .4s;
+}
+
+#topMes {
+    clear: both;
+}
+
+#content {
+    clear: both;
+    display: block;
+}
+
+#imgBox {
+    height: 150px;
+    width: 100%;
+    clear: both;
+    display: block;
+    user-select: none;
+    margin: 3% 0;
+    padding-top: 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+#notice {
+    width: 25%;
+}
+
+#imgBanner {
+    width: 28%;
+    float: left;
+    margin: auto;
+}
+
+#smallImgBar {
+    padding: 0;
+    margin: 2% auto auto;
+}
+
+#news {
+    width: 44%;
+    margin-right: 0px;
+    margin-left: 13px;
+}
+
+.rank {
+    background-color: rgba(225, 225, 225, 0.1);
+    transition: .5s;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+
+.rank p {
+    margin: 0;
+}
+
+.rank img {
+    width: 25px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.rank li {
+    padding: 0 15% 0;
+}
+
+.rank:hover {
+    transform: scale(1) translate(0, -1%);
+    box-shadow: 0 0 15px gray;
+}
+
+#floatBottom {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+}
+
+#floatBottom i {
+    border-radius: 20%;
+    background: #fec07c;
+    color: gray;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 10%;
+    transition: .5s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#floatBottom img {
+    display: none;
+    position: fixed;
+    right: 10%;
+    bottom: 12%;
+}
+
+#UpButton {
+    display: none;
+}
+
+
+/* 细节页面的css */
+
+.wrapLeft {
+    width: 10%;
+    float: left;
+    margin: 2% 2%;
+}
+
+.wrapLeft li {
+    display: flex;
+    list-style: none;
+    border: 1px solid #eee;
+}
+
+.wrapLeft a {
+    width: 100%;
+    padding: 14px 20px 14px 25px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.wrapLeft a:hover {
+    text-decoration: none;
+}
+
+.information {
+    width: 62%;
+    ;
+    margin: 1% 15% 5%;
+}
+
+.information p {
+    text-indent: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.information img {
+    width: 70%;
+    margin: auto 15%;
+}
+
+.information h2 {
+    text-align: center;
+}
+
+.information .info,
+i {
+    text-align: center;
+    padding-right: 5px;
+}
+
+.information table li {
+    list-style: none;
+}
+
+.information table {
+    border: 1px solid black;
+}
+
+.information tr {
+    border: 1px solid black;
+}
+
+.information td {
+    border: 1px solid black;
+}
+
+.organizationTable table {
+    width: 90%;
+    margin: 1% 5%;
+    text-align: center;
+}
+
+.wrapRight {
+    width: 20%;
+    float: right;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.PageCatalog .media {
+    border-bottom: 1px solid lightgray;
+    padding: 8px 0;
+}
+
+.PageCatalog time {
+    float: right;
+}
+
+.PageCatalog section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
